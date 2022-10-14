@@ -47,7 +47,7 @@ header{
 /*FISRT SECTION*/
 
 #first_section{
-    background-color: rgb(195, 193, 193);
+    background-color: rgb(230, 230, 230);
     display: flex;
     gap: 12px;
     width: 100%;
@@ -64,16 +64,21 @@ header{
     justify-content: center;
     gap: 24px;
     padding: 0 0 0 24px;
+    flex-basis: 30%;
 }
 .learn_something h1{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(86, 85, 85);
     font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+
 }
 .learn_something h4{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(86, 85, 85);
     font-weight: 600;
+
 }
 button{
     background-color: rgb(64, 64, 64);
