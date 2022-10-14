@@ -5,65 +5,48 @@ body{
 
 /*HEADER*/
 
-#header_container{
+header{
     height: 64px;
     width: 100%;
-    display: inline-flex;
+    display: flex;
+}
+/*HEADER LEFT*/
+
+#header_left{
+    display: flex;
+    align-items: center;
+    padding-right: 38%;
 }
 .lion_logo{
-    margin: 0 0 0 24px;
-    display: inline-flex;
-    align-items: center;
+    padding: 0 0 0 24px;
 }
 .colmar{
-    display: inline-flex;
-    align-items: center;
-    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
+    color: rgb(47, 46, 46);
 }
 .academy{
-    display: inline-flex;
-    align-items: center;
-    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
+    color:gray;
 }
-#header_links{
-    display: inline-flex;
-    justify-content: space-around;
-    margin-right: 24px;
-}
-.word_one{
-    display: inline-flex;
+/*HEADER RIGHT*/
+
+#header_right{
+    display: flex;
     align-items: center;
-    color: black;
-    text-decoration: none;
-    margin-right: 16px;
-
 }
-.word_two{
-    display: inline-flex;
-    align-items: center;
-    color: black;
-    text-decoration: none;
-    margin-right: 16px;
-
-
+#header_right ul{
+    display: flex;
+    list-style: none;
 }
-.word_three{
-    display: inline-flex;
-    align-items: center;
-    color: black;
-    text-decoration: none;
-    margin-right: 16px;
-
-
+#header_right li{
+    padding-left: 16px;
 }
-.word_four{
-    display: inline-flex;
-    align-items: center;
-    color: black;
-    text-decoration: none;
-    margin-right: 24px;
 
+/*FISRT SECTION*/
 
+#first_section{
+    background-color: rgb(215, 213, 213);
+    display: flex;
 }
